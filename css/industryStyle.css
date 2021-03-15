@@ -1,0 +1,920 @@
+/****** Start Our Navbar ******/
+.navbar {
+    padding: 20px
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none
+}    
+.navbar .navbar-brand {
+    font-weight: bold
+}
+.navbar .navbar-brand img {
+    height: 25px;
+    padding-right: 10px
+}
+.navbar .navbar-nav .nav-link {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .navbar-nav .nav-link {
+    color: #0a0a0a;
+    letter-spacing: 1.2px
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .last {
+    color: #2289ff
+}
+.navbar .navbar-nav .last .fas {
+    padding-left: 3px
+}
+.navbar .navbar-nav .last {
+    font-weight: 600;
+    position: relative
+}
+.navbar .navbar-nav .last::after {
+    
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+}
+.navbar .navbar-nav .last:hover {
+    color: #003f86
+}
+/****** End Our Navbar   ******/
+
+/*** Start Sticky Navbar  ***/
+.sticky {
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(16, 19, 20, 0.04);
+}
+
+/***  End Sticky Navbar ***/
+/*Start Hero*/
+.hero {
+    padding: 120px 80px 
+}
+.hero .section1 {
+    padding-top: 40px
+}
+.hero .section1 .hero-head {
+    font-weight: bolder;
+    font-size: 50px
+}
+
+.hero .section1 .hero-button {
+    margin-top: 50px
+}
+.hero .section1 .button {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+.hero .section1 .button1 {
+    background: #4896F0;
+    color: #fff;
+}
+.hero .section1 .button1 .fas {
+    padding-left: 3px
+}
+
+.hero .section1 .button2 {
+    color: #4896F0;
+    border: 1px solid #4896F0;
+    margin-left:  30px
+}
+.hero .section1 .button1:hover, .hero .section1 .button2:hover {
+    color: #fff;
+    background: #1f82f4;
+}
+.hero img {
+    max-height: 400px
+}
+
+/*End Hero*/
+
+/* Start Retail */
+.retail {
+    padding: 0 80px 80px;
+    border-bottom: 1px solid #eee
+}
+.retail .head h6 {
+    font-weight: 700;
+    font-size: 20px
+}
+.retail .title p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 0 40px 0 0
+}
+.retail .description p {
+    font-size: 18px
+}
+
+.retail .content2 {
+    margin-top: 60px;
+    height: 350px;
+    background-image: url("../image/PointOfSale.jpg");
+    position: relative
+    
+}
+
+.retail .content2 .text {
+    background-color: #393939;
+    opacity: 0.93;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 18px
+}
+.retail .content2 .text p {
+    color: #fff
+}
+.retail .content2 .text p::before {
+    position: absolute;
+    top: 55px;
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f10d";
+    font-size: 13px;
+    font-weight: 700
+}
+.retail .content3 {
+    margin-top: 70px
+}
+
+.retail .content3 .img img {
+    height: 50px
+}
+.retail .content3 .text {
+    position: absolute;
+    top: 0;
+    left: 67px;
+    padding-left: 10px
+}
+/* End Retail */
+
+/* start Ecommerce */
+
+.ecommerce {
+    padding:  80px 80px
+}
+.ecommerce .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.ecommerce .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.ecommerce .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.ecommerce .logos {
+    margin: 90px 0
+}
+.ecommerce .logos img {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    height: 100px;
+    opacity: 0.5;
+}
+.ecommerce .logos img:hover {
+    opacity: 1;
+    cursor: pointer
+}
+/* End Ecommerce */
+
+
+/*Start Gaming */
+.gaming {
+    padding: 80px 80px;
+    background: #F5F6F7
+}
+.gaming .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.gaming .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.gaming .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.gaming .text a {
+    text-decoration: none
+}
+.gaming .text a::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 700 
+}
+.gaming .image {
+    margin: 90px 0
+}
+/*End Gaming   */ 
+
+
+/*Start Non Profits*/
+.nonprofits {
+    padding: 80px
+}
+.nonprofits .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.nonprofits .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.nonprofits .image {
+    margin: 90px 0
+}
+.nonprofits .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.nonprofits .text a {
+    text-decoration: none
+}
+.nonprofits .text a::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 6px
+}
+/*End  Non Profits*/
+
+/* Start Our Streaming */
+.streaming {
+    padding: 80px;
+    border-bottom: 1px solid #EDF1F5
+}
+.streaming .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.streaming .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+
+.streaming .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.streaming .image {
+    margin-left: 50px
+}
+/* End  Our  Streaming */
+
+/* Start Our Start Up */
+.start-up {
+    padding: 80px;
+    background-color: linear-gradient(#FFFFFF, #F5F6F7);
+}
+.start-up .image img {
+    height: 400px
+}
+.start-up .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 22px
+}
+.start-up .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+
+.start-up .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.start-up .list-group {
+    margin-top: 40px
+}
+.start-up .list-group .list-group-item  {
+    padding: 0;
+    border: none;
+    margin-bottom: 13px;
+    font-size: 18px;
+    color: #434343
+}
+.start-up .list-group .list-group-item::before {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 6px;
+    color: #2289ff
+}
+/* End  Our  Start Up */
+
+/*** Start Our pre-footer***/
+.pre-footer {
+    padding: 100px 10px;
+    background-color: #1D2229;
+    color: #fff
+}
+
+.pre-footer .pre-head {
+    margin-bottom: 25px
+}
+.pre-footer .pre-head h1 {
+    font-size: 36px
+}
+.pre-footer .pre-text p {
+    font-size: 20px
+}
+.pre-footer .pre-btn {
+    margin-top: 23px
+}
+
+.pre-footer .pre-btn .button {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    position: relative;
+    padding: 13px 22px;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.pre-footer .pre-btn .butt1 {
+    background-color: #4896F0;
+    border: 1px solid #4896F0
+}
+.pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 5px
+}
+.pre-footer .pre-btn .butt1:hover  {
+    background-color: #1f82f4
+}
+.pre-footer .pre-btn .butt2 {
+    border: 1px solid #fff;
+    margin-left: 30px    
+}
+.pre-footer .pre-btn .butt2:hover {
+    border: 1px solid #999;
+    color: #999
+}
+/*** End Our pre-footer***/
+
+/*** Start Our Footer ***/
+
+.footer {
+    border-top: 1px solid #3c3c3c;
+    padding: 70px;
+    background-color: #1D2229;
+    color: #fff
+}
+.footer img {
+    margin-bottom: 30px
+}
+.footer .list-group p {
+    font-weight: 600;
+    font-size: 19px
+}
+.footer .list-group-item {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.footer .list-group-item:hover {
+    color: #999
+}
+.footer .copy {
+    margin-top: 40px;
+    color: #999
+}
+/*** End Our Footer   ***/
+
+/* =======================
+    Start Responsive
+ ========================  */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin-left: 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after  {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    .hero {
+        padding: 120px 0
+    }
+     .hero .section1 .hero-head {
+        font-size: 35px
+    }
+    .hero img {
+        height: 300px
+    }
+    
+    
+     .retail {
+        padding: 0 30px 30px
+    }
+    .retail .title p {
+        font-size: 30px;
+    }
+    .retail .description p {
+        font-size: 16px
+    }
+    
+    
+    .retail .content3 .img img {
+        height: 40px
+    }
+    .retail .content3 .content3-part1 {
+        margin-bottom: 40px
+    }
+    
+    
+    .ecommerce {
+        padding:  40px 40px
+    }
+    .ecommerce .text {
+        font-size: 16px
+    }
+    .ecommerce .logos img {
+        height: 70px
+    }
+    
+    .gaming {
+        padding:40px 40px
+    }
+    .gaming .text {
+        font-size: 16px
+    }
+    
+    .nonprofits {
+        padding: 40px
+    }
+    .nonprofits .text {
+        font-size: 16px
+    }
+    
+    .streaming {
+        padding: 40px
+    }
+    .streaming .text {
+        font-size: 16px
+    }
+    
+    .start-up {
+        padding: 40px
+    }
+    .start-up .text  {
+        font-size: 16px
+    }
+    
+    .start-up .list-group .list-group-item {
+        font-size: 16px
+    }
+    
+    
+    
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    .hero {
+        padding: 100px 0
+    }
+    .hero .section1 {
+        margin-bottom: 50px
+    }
+    .hero .section1 .hero-head {
+        font-size: 32px
+    }
+    
+    .hero .section1 .button {
+        padding: 11px 15px
+    }
+    .hero img {
+        height: 300px
+    }
+    .hero img {
+        padding: 0 80px
+    }
+    
+    .retail {
+        padding: 0 30px 30px
+    }
+    .retail .title p {
+        font-size: 33px;
+    }
+    .retail .description p {
+        font-size: 16px
+    }
+    .retail .content3 .img img {
+        height: 40px
+    }
+    .retail .content3 .content3-part1 {
+        margin-bottom: 40px
+    }
+    
+    
+    .ecommerce {
+        padding:  40px 40px
+    }
+    .ecommerce .text {
+        font-size: 16px
+    }
+    .ecommerce .logos img {
+        height: 70px
+    }
+    
+    .gaming {
+        padding:40px 40px
+    }
+    .gaming .text {
+        font-size: 16px
+    }
+    
+    .nonprofits {
+        padding: 40px
+    }
+    .nonprofits .text {
+        font-size: 16px
+    }
+    
+    .streaming {
+        padding: 40px
+    }
+    .streaming .text {
+        font-size: 16px
+    }
+    
+    .start-up {
+        padding: 40px
+    }
+    .start-up .text  {
+        font-size: 16px
+    }
+    
+    .start-up .list-group .list-group-item {
+        font-size: 16px
+    }
+    
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500
+    }
+    
+    .footer .list-group {
+        margin-bottom: 40px
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 70%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px  0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    .hero {
+        padding: 60px 10px
+    }
+    .hero .section1 {
+        margin-bottom: 80px
+    }
+     .hero .section1 .hero-head {
+        font-size: 30px
+    }
+    
+    .hero .section1 .button {
+        padding: 11px 15px
+    }
+     .hero img {
+        padding: 0 50px
+    }
+    
+    .retail {
+        padding: 0 10px 10px
+    }
+    .retail .title p {
+        font-size: 25px;
+    }
+    .retail .description p {
+        font-size: 15px
+    }
+    .retail .content3 .img img {
+        height: 40px
+    }
+    .retail .content3 .content3-part1, .retail .content3 .content3-part2 {
+        margin-bottom: 50px
+    }
+    
+    
+    .ecommerce {
+        padding:  10px 10px
+    }
+    .ecommerce .head1 {
+        font-size: 20px
+    }
+    .ecommerce .head2 {
+        font-size: 25px
+    }
+    .ecommerce .text {
+        font-size: 15px
+    }
+    .ecommerce .logos img {
+        height: 70px
+    }
+    
+    .gaming {
+        padding: 10px 10px
+    }
+    .gaming .text {
+        font-size: 15px
+    }
+    .gaming .head1 {
+        font-size: 20px
+    }
+    .gaming .head2 {
+        font-size: 25px
+    }
+    
+    
+    .nonprofits {
+        padding: 10px
+    }
+    .nonprofits .head1 {
+        font-size: 20px
+    }
+    .nonprofits .head2 {
+        font-size: 25px
+    }
+    .nonprofits .text {
+        font-size: 15px
+    }
+    
+    .streaming {
+        padding: 10px
+    }
+    .streaming .head1 {
+        font-size: 20px
+    }
+    .streaming .head2 {
+        font-size: 25px
+    }
+    .streaming .text {
+        font-size: 15px
+    }
+    
+    
+    .start-up {
+        padding: 10px
+    }
+    .start-up .head1 {
+        font-size: 20px
+    }
+    .start-up .head2 {
+        font-size: 25px
+    }
+    .start-up .text  {
+        font-size: 15px
+    }
+    
+    .start-up .list-group .list-group-item {
+        font-size: 15px
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 26px
+    }
+    .pre-footer .pre-text p {
+        font-size: 18px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500;
+        padding: 11px 20px
+    }
+    .footer {
+        padding: 70px  10px 
+    }
+    .footer .list-group {
+        border-bottom: 1px solid #3c3c3c;
+        width: 90px;
+        margin-bottom: 40px
+    }
+    
+}
+
+
+@media (max-width: 345px) {
+    
+    .retail .content2 .text p::before {
+        top: 20px
+    }
+    .pre-footer .pre-btn .button {
+        display: block
+    }
+    .pre-footer .pre-btn .butt2 {
+        margin: 10px 0
+    }
+    .pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+        right: 10px
+    }
+}
+
+/* =======================
+    End Responsive
+ ========================  */

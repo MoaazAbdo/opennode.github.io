@@ -1,0 +1,70 @@
+.forget-head {
+    padding: 30px 
+}
+.forget-head .content a img {
+   margin-right: 10px;
+    height:30px
+}
+.forget-head .content a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px
+}
+.details {
+    padding: 30px
+}
+.details .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.details .content .form-group .head {
+    font-weight: 700;
+    padding: 10px 0
+}
+.details .content .form-group .text {
+    margin: 0 0 10px;
+    color: #696969;
+    padding: 10px 0
+}
+.details .content .form-group label {
+    color: #4b4b4b;
+    font-weight: 600
+}
+.details .content .form-group .form-control {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #7e8794 ;
+    color: #1d2229;
+    box-shadow: 0 4px 8px 0 rgba(16,19,20,.02);
+    outline: none;
+} 
+.details .content .form-group .btn {
+    font-weight: 600;
+    padding: 13px 22px;
+    background-color: #3395ff;
+    color: #fff;
+    border-radius: 0;
+    width: 400px;
+    margin: 20px 0
+}
+.details .content  a {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+}
+
+/* =======================
+    Start Responsive
+ ========================  */
+@media (max-width: 575.98px) {
+    .forget-head {
+        padding: 30px 0
+    }
+}
+
+/* =======================
+    End Responsive
+ ========================  */

@@ -1,0 +1,194 @@
+/****** Start Our Navbar ******/
+.navbar {
+    padding: 20px
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none
+}    
+.navbar .navbar-brand {
+    font-weight: bold
+}
+.navbar .navbar-brand img {
+    height: 25px;
+    padding-right: 10px
+}
+.navbar .navbar-nav .nav-link {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .navbar-nav .nav-link {
+    color: #0a0a0a;
+    letter-spacing: 1.2px
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .last {
+    color: #2289ff
+}
+.navbar .navbar-nav .last .fas {
+    padding-left: 3px
+}
+.navbar .navbar-nav .last {
+    font-weight: 600;
+    position: relative
+}
+.navbar .navbar-nav .last::after {
+    
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+}
+.navbar .navbar-nav .last:hover {
+    color: #003f86
+}
+/****** End Our Navbar   ******/
+
+/*** Start Sticky Navbar  ***/
+.sticky {
+    background-color: #fff;
+    /*box-shadow: 0 4px 20px rgba(16, 19, 20, 0.04);*/
+}
+
+/***  End Sticky Navbar ***/
+
+/****** Start Our Hero  ******/
+
+.hero {
+    padding: 120px 80px 30px
+}
+.hero .section1 {
+    padding-top: 40px
+}
+.hero .section1 .hero-head {
+    font-weight: bolder;
+    font-size: 50px
+}
+.hero .section1 .hero-text {
+    padding-top: 20px;
+    font-size: 19px;
+    color: #4b4b4b;
+    line-height: 1.8
+}
+.hero .section1 .hero-button {
+    margin-top: 50px
+}
+.hero .section1 .button {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+.hero .section1 .button1 {
+    background: #4896F0;
+    color: #fff;
+}
+.hero .section1 .button1 .fas {
+    padding-left: 3px
+}
+
+.hero .section1 .button2 {
+    color: #4896F0;
+    border: 1px solid #4896F0;
+    margin-left:  30px
+}
+.hero .section1 .button1:hover, .hero .section1 .button2:hover {
+    color: #fff;
+    background: #1f82f4;
+}
+.hero img {
+    max-height: 400px
+}
+/****** End Our Hero   ******/
+
+
+/****** Start tabs     ******/
+.navbar {
+    background-color: #fff
+}
+.navbar .navbar-nav li {
+    padding: 0 15px
+}
+.navbar .navbar-nav li a{
+    color: #383838;
+    text-decoration: none;
+    font-weight: 600
+}
+.navbar .navbar-nav li .active {
+    color: #4896F0;
+    border-bottom: 1px solid #4896F0
+}
+/****** End tabs     ******/
+
+.all {
+    padding: 135px 125px 0
+}
+
+.all .head h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px
+}
+.all .content .title p {
+    font-size: 22px;
+    font-weight: 600;
+    position: relative
+}
+.all .content .title p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background: #000;
+    height: 1px;
+    width: 50px
+}
+.all .content .description p {
+    font-size: 16px;
+    line-height: 1.8
+}
+
+/*** Start Our Footer ***/
+
+.footer {
+    border-top: 1px solid #3c3c3c;
+    padding: 70px;
+    background-color: #1D2229;
+    color: #fff
+}
+.footer img {
+    margin-bottom: 30px
+}
+.footer .list-group p {
+    font-weight: 600;
+    font-size: 19px
+}
+.footer .list-group-item {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.footer .list-group-item:hover {
+    color: #999
+}
+.footer .copy {
+    margin-top: 40px;
+    color: #999
+}
+/*** End Our Footer   ***/

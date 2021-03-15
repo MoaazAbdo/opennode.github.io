@@ -1,0 +1,980 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin-left: 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after  {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    .hero {
+        padding: 120px 0
+    }
+     .hero .section1 .hero-head {
+        font-size: 35px
+    }
+    .hero .section1 .hero-text {
+        font-size: 17px
+    }
+    
+    .features {
+        padding: 40px 0
+    }
+    .features .feat {
+        margin: 30px 0
+    }
+    
+    .industries {
+        padding: 40px 0
+    }
+    .industries .industries-img img {
+        height: 400px;
+        padding-left: 10px
+    }
+    
+    .hero .section1 .hero-head {
+        font-size: 35px
+    }
+    
+    
+    .overView {
+        padding: 60px 20px
+    }
+    .overView .overview-content .text { 
+        font-size: 20px
+    }
+    
+    .api {
+        padding: 60px 0 100px
+    }
+    
+    .api img {
+        
+        height: 250px;
+        width: 188px;
+        position: absolute;
+        left: 50%;
+        margin-left: -94px;
+        top: 50%;
+        margin-top: -125px
+    }
+    
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+    
+    
+    
+    /* ========== 
+
+    Start Features Page
+
+    ==========   */
+    
+    .all {
+        padding: 20px 50px 0
+    }
+    /* ========== 
+
+    End Features Page
+
+    ==========   */
+    
+    
+    /* ========== 
+
+    Start Industries Page
+
+    ==========   */
+    
+    
+    .hero img {
+        height: 300px
+    }
+    
+    .retail {
+        padding: 0 30px 30px
+    }
+    .retail .title p {
+        font-size: 30px;
+    }
+    .retail .description p {
+        font-size: 16px
+    }
+    .retail .content3 .img img {
+        height: 40px
+    }
+    .retail .content3 .content3-part1 {
+        margin-bottom: 40px
+    }
+    
+    
+    .ecommerce {
+        padding:  40px 40px
+    }
+    .ecommerce .text {
+        font-size: 16px
+    }
+    .ecommerce .logos img {
+        height: 70px
+    }
+    
+    .gaming {
+        padding:40px 40px
+    }
+    .gaming .text {
+        font-size: 16px
+    }
+    
+    .nonprofits {
+        padding: 40px
+    }
+    .nonprofits .text {
+        font-size: 16px
+    }
+    
+    .streaming {
+        padding: 40px
+    }
+    .streaming .text {
+        font-size: 16px
+    }
+    
+    .start-up {
+        padding: 40px
+    }
+    .start-up .text  {
+        font-size: 16px
+    }
+    
+    .start-up .list-group .list-group-item {
+        font-size: 16px
+    }
+    
+    /* ========== 
+
+    End Industries Page
+
+    ==========   */
+    
+    
+    /* ========== 
+
+    Start Pricing Page
+
+    ==========   */
+    
+    .get-money {
+        padding: 40px
+    }
+    .get-money .image img {
+        height: 50px
+    } 
+    .get-money .part1 .end, .get-money .part2 .end {
+        top: 30px;
+    }
+    .highVolume {
+        padding: 40px
+    }
+    .highVolume::before {
+        top: 50px
+    }
+    .highVolume .image img {
+        height: 250px
+    }
+    .highVolume .headText h2 {
+        font-size: 30px
+    }
+    .highVolume .text p {
+        font-size: 19px
+    }
+    /* ========== 
+
+    End Pricing Page
+
+    ==========   */
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    .hero {
+        padding: 100px 0
+    }
+    .hero .section1 {
+        margin-bottom: 50px
+    }
+    .hero .section1 .hero-head {
+        font-size: 32px
+    }
+    .hero .section1 .hero-text {
+        font-size: 16px
+    }
+    .hero .section1 .button {
+        padding: 11px 15px
+    }
+    .hero img {
+        padding: 0 80px
+    }
+    
+    .industries {
+        padding: 40px
+    }
+    .industries .industries-img img {
+        height: 380px
+    }
+    
+    .industries .content .head {
+        font-size: 28px
+    }
+    
+    .overView {
+        padding: 60px 40px
+    }
+    .overView .overview-content .text { 
+        font-size: 22px
+    }
+    
+    .api {
+        margin-top: 20px;
+        padding: 200px 0 50px 0
+    }
+    
+    .api img {
+       height: 150px;
+       width: 100px;
+       position: absolute;
+       left: 50%;
+       margin-left: -50px;
+       top: 50%;
+       margin-top: -75px
+    }
+    
+    .api .api-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px
+    }
+    
+    .api .api-content .api-head {
+        font-size: 25px;
+        font-weight: 600;
+         
+    }
+    .api .api-content .api-text {
+        font-size: 16px;
+        margin: 10px 0 30px
+    }
+    .api .api-content a {
+        padding: 13px 16px;
+        font-weight: 600;
+        border-radius: 3px
+        
+    }
+    
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500
+    }
+    
+    .footer .list-group {
+        margin-bottom: 40px
+    }
+    
+    /*Start Login Page*/
+    .head .content span, .head .signcontent span {
+        display: none
+    }
+    /*End  Login  Page*/
+    
+    /* ========== 
+
+    Start Features Page
+
+    ==========   */
+    
+    .all {
+        padding: 20px 0 0
+    }
+    /* ========== 
+
+    End Features Page
+
+    ==========   */
+    
+    
+    /* ========== 
+
+    Start Industries Page
+
+    ==========   */
+    
+    .hero img {
+        height: 300px
+    }
+    
+    .retail {
+        padding: 0 30px 30px
+    }
+    .retail .title p {
+        font-size: 33px;
+    }
+    .retail .description p {
+        font-size: 16px
+    }
+    .retail .content3 .img img {
+        height: 40px
+    }
+    .retail .content3 .content3-part1 {
+        margin-bottom: 40px
+    }
+    
+    
+    .ecommerce {
+        padding:  40px 40px
+    }
+    .ecommerce .text {
+        font-size: 16px
+    }
+    .ecommerce .logos img {
+        height: 70px
+    }
+    
+    .gaming {
+        padding:40px 40px
+    }
+    .gaming .text {
+        font-size: 16px
+    }
+    
+    .nonprofits {
+        padding: 40px
+    }
+    .nonprofits .text {
+        font-size: 16px
+    }
+    
+    .streaming {
+        padding: 40px
+    }
+    .streaming .text {
+        font-size: 16px
+    }
+    
+    .start-up {
+        padding: 40px
+    }
+    .start-up .text  {
+        font-size: 16px
+    }
+    
+    .start-up .list-group .list-group-item {
+        font-size: 16px
+    }
+    /* ========== 
+
+    End Industries Page
+
+    ==========   */
+    
+    
+    /* ========== 
+
+    Start Pricing Page
+
+    ==========   */
+    
+    .get-money {
+        padding: 20px
+    }
+    .get-money .image img {
+        height: 40px
+    }
+    .get-money .titles .head1 {
+        font-size: 25px
+    }
+    .get-money .titles .head2 {
+        /*width: 450px*/
+    }
+    .get-money .part1-content h3,.get-money .part2-content h3 {
+        font-size: 20px
+    }
+    .get-money .part1-content p,.get-money .part2-content p {
+        font-size: 14px   
+    }
+    .get-money .part1 .end, .get-money .part2 .end {
+        top: 30px;
+        right: 10px
+    }
+    .highVolume {
+        padding: 20px
+    }
+    .highVolume::before {
+        top: 30px
+    }
+    .highVolume .image img {
+        height: 250px
+    }
+    .highVolume .headText h2 {
+        font-size: 25px
+    }
+    .highVolume .text p {
+        font-size: 15px
+    }
+    .highVolume .button {
+        margin-top: 30px
+    }
+    
+    /* ========== 
+
+    End Pricing Page
+
+    ==========   */
+    
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 70%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px  0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    .hero {
+        padding: 60px 10px
+    }
+    .hero .section1 {
+        margin-bottom: 80px
+    }
+     .hero .section1 .hero-head {
+        font-size: 30px
+    }
+    .hero .section1 .hero-text {
+        font-size: 16px
+    }
+    .hero .section1 .button {
+        padding: 11px 15px
+    }
+    .hero img {
+        padding: 0 50px
+    }
+    
+    .features {
+        padding: 40px 0
+    }
+    
+    
+    
+    .industries {
+        padding: 30px
+    }
+    .industries .industries-img img {
+        height: 300px
+    }
+    .industries .content .head {
+        font-size: 25px
+    }
+    .industries .content .text {
+        font-size: 16px
+    }
+    
+    
+    .overView {
+        padding: 60px 30px
+    }
+    .overView .overview-content .text { 
+        font-size: 18px
+    }
+   
+    
+    
+    
+    .api {
+        margin-top: 20px;
+        padding: 200px 0 50px 0
+    }
+    
+    .api img {
+       height: 120px;
+       width: 100px;
+       position: absolute;
+       left: 50%;
+       margin-left: -50px;
+       top: 50%;
+       margin-top: -60px
+    }
+    
+    .api .api-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px
+    }
+    
+    .api .api-content .api-head {
+        font-size: 25px;
+        font-weight: 600;
+         
+    }
+    .api .api-content .api-text {
+        font-size: 16px;
+        margin: 10px 0 30px
+    }
+    .api .api-content a {
+        padding: 13px 16px;
+        font-weight: 600;
+        border-radius: 3px
+        
+    }
+    
+    
+    .pre-footer .pre-head h1 {
+        font-size: 26px
+    }
+    .pre-footer .pre-text p {
+        font-size: 18px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500;
+        padding: 11px 20px
+    }
+    .footer {
+        padding: 70px  10px 
+    }
+    .footer .list-group {
+        border-bottom: 1px solid #3c3c3c;
+        width: 90px;
+        margin-bottom: 40px
+    }
+    
+    /*Start Login Page*/
+    .head {
+        padding: 30px 10px
+    }
+    .head .logo a, .head .content a{
+        font-size: 16px
+    }
+    .head .logo img {
+        height: 20px
+    }
+    .head .content span, .head .signcontent span {
+        display: none
+    }
+    .form form .form-group h4 { 
+        font-size: 25px
+    }
+    .form form .form-control , .form form .form-group {
+        width: 280px
+    }
+    
+    /*End  Login  Page*/    
+    
+    /* Start Forget Page */
+    .forget-head {
+        padding: 30px 0
+    }
+    /* End Forget Page */
+    
+    
+    /* ========== 
+
+    Start Features Page
+
+    ==========   */
+    
+    .all {
+        padding: 20px 0 0
+    }
+    /* ========== 
+
+    End Features Page
+
+    ==========   */
+    
+    
+    /* ========== 
+
+    Start Industries Page
+
+    ==========   */
+    
+    
+    .retail {
+        padding: 0 10px 10px
+    }
+    .retail .title p {
+        font-size: 25px;
+    }
+    .retail .description p {
+        font-size: 15px
+    }
+    .retail .content3 .img img {
+        height: 40px
+    }
+    .retail .content3 .content3-part1, .retail .content3 .content3-part2 {
+        margin-bottom: 50px
+    }
+    
+    
+    .ecommerce {
+        padding:  10px 10px
+    }
+    .ecommerce .head1 {
+        font-size: 20px
+    }
+    .ecommerce .head2 {
+        font-size: 25px
+    }
+    .ecommerce .text {
+        font-size: 15px
+    }
+    .ecommerce .logos img {
+        height: 70px
+    }
+    
+    .gaming {
+        padding: 10px 10px
+    }
+    .gaming .text {
+        font-size: 15px
+    }
+    .gaming .head1 {
+        font-size: 20px
+    }
+    .gaming .head2 {
+        font-size: 25px
+    }
+    
+    
+    .nonprofits {
+        padding: 10px
+    }
+    .nonprofits .head1 {
+        font-size: 20px
+    }
+    .nonprofits .head2 {
+        font-size: 25px
+    }
+    .nonprofits .text {
+        font-size: 15px
+    }
+    
+    .streaming {
+        padding: 10px
+    }
+    .streaming .head1 {
+        font-size: 20px
+    }
+    .streaming .head2 {
+        font-size: 25px
+    }
+    .streaming .text {
+        font-size: 15px
+    }
+    
+    
+    .start-up {
+        padding: 10px
+    }
+    .start-up .head1 {
+        font-size: 20px
+    }
+    .start-up .head2 {
+        font-size: 25px
+    }
+    .start-up .text  {
+        font-size: 15px
+    }
+    
+    .start-up .list-group .list-group-item {
+        font-size: 15px
+    }
+    
+    /* ========== 
+
+    End Industries Page
+
+    ==========   */
+    
+    /* ========== 
+
+    Start Pricing Page
+
+    ==========   */
+    .header {
+        padding: 100px 10px;
+    }
+    .header .card {
+        width: 300px
+    }
+    .header .head1 {
+        
+        font-size: 18px
+    }
+    .header .head2 {
+       
+        font-size: 23px
+    }
+    .get-money {
+        padding: 10px
+    }
+    .get-money .image img {
+        height: 35px
+    }
+    .get-money .titles .head1 {
+        font-size: 23px;
+        text-align: center
+    }
+    .get-money .titles .head2 {
+        /*width: 350px*/
+    }
+    .get-money .part1 .part1-content, .get-money .part2 .part2-content {
+        left: 55px
+    }
+    .get-money .part1-content h3,.get-money .part2-content h3 {
+        font-size: 18px
+    }
+    .get-money .part1-content p,.get-money .part2-content p {
+        font-size: 14px   
+    }
+    .get-money .part1 .end, .get-money .part2 .end {
+        font-size: 16px;
+        top: 30px;
+        right: 10px
+    }
+    .highVolume {
+        padding: 10px
+    }
+    .highVolume::before {
+        top: 30px
+    }
+    .highVolume .image img {
+        height: 200px
+    }
+    
+    .highVolume .volumeContent {
+        text-align: center
+    }
+    .highVolume .headText h2 {
+        font-size: 22px
+    }
+    .highVolume .text p {
+        font-size: 15px
+    }
+    .highVolume .button {
+        margin: 40px 0
+    }
+    
+    /* ========== 
+
+    End Pricing Page
+
+    ==========   */
+
+    
+    /* ========== 
+
+    Start Contact us Page
+
+    ==========   */
+    .contactus  {
+        padding: 100px 20px
+    }
+    .contactus .contacthead h2 {
+        font-size: 30px
+    }
+    .contactus .contacttext p {
+        font-size: 18px
+    }
+    .contactus form .form-control {
+        padding: 8px
+    }
+    .contactus form .form-group .btn {
+        padding: 11px;
+        font-size: 16px
+    }
+    .contactus form .form-group .btn::after {
+        top: 16px
+    }
+    .contactus .contacthelp {
+        margin: 40px 0
+    }
+    /* ========== 
+
+    Start Contact us Page
+
+    ==========   */
+}
+
+@media (max-width: 345px) {
+    .get-money .part1, .get-money .part2  {
+        padding: 55px 10px
+    }
+    .get-money .image img {
+        position: absolute;
+        top: 30px
+    }
+    .get-money .part1 .part1-content, .get-money .part2 .part2-content  {
+        top: 30px
+    }
+    .get-money .part1 .end, .get-money .part2 .end {
+        top: 5px
+    }
+    
+    .pre-footer .pre-btn .button {
+        display: block
+    }
+    .pre-footer .pre-btn .butt2 {
+        margin: 10px 0
+    }
+    .pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+        right: 10px
+    }
+}

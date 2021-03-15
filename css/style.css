@@ -1,0 +1,1190 @@
+
+/* ========== 
+
+Start Home Page
+
+==========   */
+
+/****** Start Our Navbar ******/
+.navbar {
+    padding: 20px
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none
+}    
+.navbar .navbar-brand {
+    font-weight: bold
+}
+.navbar .navbar-brand img {
+    height: 25px;
+    padding-right: 10px
+}
+.navbar .navbar-nav .nav-link {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .navbar-nav .nav-link {
+    color: #0a0a0a;
+    letter-spacing: 1.2px
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .last {
+    color: #2289ff
+}
+.navbar .navbar-nav .last .fas {
+    padding-left: 3px
+}
+.navbar .navbar-nav .last {
+    font-weight: 600;
+    position: relative
+}
+.navbar .navbar-nav .last::after {
+    
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+}
+.navbar .navbar-nav .last:hover {
+    color: #003f86
+}
+/****** End Our Navbar   ******/
+
+/*** Start Sticky Navbar  ***/
+.sticky {
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(16, 19, 20, 0.04);
+}
+
+/***  End Sticky Navbar ***/
+
+/****** Start Our Hero  ******/
+
+.hero {
+    padding: 120px 80px 
+}
+.hero .section1 {
+    padding-top: 40px
+}
+.hero .section1 .hero-head {
+    font-weight: bolder;
+    font-size: 50px
+}
+.hero .section1 .hero-text {
+    padding-top: 20px;
+    font-size: 19px;
+    color: #4b4b4b;
+    line-height: 1.8
+}
+.hero .section1 .hero-button {
+    margin-top: 50px
+}
+.hero .section1 .button {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+.hero .section1 .button1 {
+    background: #4896F0;
+    color: #fff;
+}
+.hero .section1 .button1 .fas {
+    padding-left: 3px
+}
+
+.hero .section1 .button2 {
+    color: #4896F0;
+    border: 1px solid #4896F0;
+    margin-left:  30px
+}
+.hero .section1 .button1:hover, .hero .section1 .button2:hover {
+    color: #fff;
+    background: #1f82f4;
+}
+.hero img {
+    max-height: 400px
+}
+/****** End Our Hero   ******/
+
+
+/****** Start Our Features ***/
+.features {
+    padding: 50px 70px
+}
+.features .feat {
+    margin: 30px
+}
+.features img {
+    height: 50px;
+    margin-bottom: 20px
+}
+.features .content .head {
+    font-size: 22px
+}
+.features .content .text {
+    color: #656565
+}
+/****** End Our Features   ***/
+
+.border {
+    border: 1px solid #efefef;
+    margin: 50px 0
+}
+/****** Start Our industries ***/
+
+.industries {
+     padding: 60px   
+}
+.industries .industries-img img{
+    height: 520px;
+    padding-left: 50px
+}
+.industries .content .head {
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px
+}
+.industries .content .text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #656565;
+    margin-bottom: 20px
+}
+.industries .content .list-group .list-group-item {
+    border: 0;
+    padding: 8px 0
+}
+.industries .content .list-group .list-group-item .fas {
+    color: #3e9d3e;
+    font-weight: 600;
+    padding-right: 10px
+}
+.industries .content a {
+    font-weight: 600;
+    position: relative;
+    top: 30px;
+    text-decoration: none
+}
+.industries .content .link .fas {
+    position: absolute;
+    padding-left: 7px;
+    font-size: 20px;
+    padding-top: 4px
+}
+/****** End Our industries  ***/
+
+/*** Start Our OverView ******/
+
+.overView {
+    padding: 60px
+}
+.overView .parent {
+    margin-top: 20px
+}
+.overView .overview-content {
+    margin-bottom: 50px
+}
+.overView .overview-content .head {
+    font-size: 22px;
+    font-weight: 600;
+    border-left: 3px solid #4896F0;
+    padding-left: 10px;
+    margin-bottom: 20px
+
+}
+.overView .overview-content .text {
+    color: #656565;
+    font-size: 26px
+}
+/*** End Our OverView  ******/
+
+
+/*** Start Our Api *****/
+
+
+.api {
+    position: relative;
+    padding: 100px 0 140px;
+    margin-bottom: 80px;
+    
+}
+.api:before {
+    content: "";
+    position: absolute;
+    top: 80px;
+    right: 24px;
+    bottom: 0;
+    left: 24px;
+    background: #F5F6F7;
+    z-index: -1
+}
+ 
+.api img {
+    
+    height: 300px;
+    width: 210px;
+    position: absolute;
+    left: 50%;
+    margin-left: -105px;
+    top: 50%;
+    margin-top: -150px
+        
+}
+.api .api-content{
+    padding-top: 80px
+}
+.api .api-content .api-head {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px 
+}
+.api .api-content .api-text {
+    font-size: 18px;
+    margin: 20px 0 40px
+}
+.api .api-content a {
+    border: 1px solid #4896F0;
+    color: #4896F0;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 7px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.api .api-content a:hover {
+    background-color: #4896F0;
+    color: #fff
+}
+
+/*** End Our Api *****/
+
+/*** Start Our pre-footer***/
+.pre-footer {
+    padding: 100px 10px;
+    background-color: #1D2229;
+    color: #fff
+}
+
+.pre-footer .pre-head {
+    margin-bottom: 25px
+}
+.pre-footer .pre-head h1 {
+    font-size: 36px
+}
+.pre-footer .pre-text p {
+    font-size: 20px
+}
+.pre-footer .pre-btn {
+    margin-top: 23px
+}
+
+.pre-footer .pre-btn .button {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    position: relative;
+    padding: 13px 22px;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.pre-footer .pre-btn .butt1 {
+    background-color: #4896F0;
+    border: 1px solid #4896F0
+}
+.pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 5px
+}
+.pre-footer .pre-btn .butt1:hover  {
+    background-color: #1f82f4
+}
+.pre-footer .pre-btn .butt2 {
+    border: 1px solid #fff;
+    margin-left: 30px    
+}
+.pre-footer .pre-btn .butt2:hover {
+    border: 1px solid #999;
+    color: #999
+}
+/*** End Our pre-footer***/
+
+/*** Start Our Footer ***/
+
+.footer {
+    border-top: 1px solid #3c3c3c;
+    padding: 70px;
+    background-color: #1D2229;
+    color: #fff
+}
+.footer img {
+    margin-bottom: 30px
+}
+.footer .list-group p {
+    font-weight: 600;
+    font-size: 19px
+}
+.footer .list-group-item {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.footer .list-group-item:hover {
+    color: #999
+}
+.footer .copy {
+    margin-top: 40px;
+    color: #999
+}
+/*** End Our Footer   ***/
+
+
+/* ========== 
+
+End Home Page
+
+==========   */
+
+
+
+/* ========== 
+
+Start Login Page
+
+==========   */
+/* Start Head */
+.head {
+    background-color: #fff;
+    padding: 30px 0
+}
+.head .logo a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 19px
+}
+.head .logo img {
+    margin-right: 10px;
+    height:25px
+}
+.head .content {
+    display: flex;
+    justify-content: flex-end
+}
+.head .content span {
+    margin-right: 20px
+}
+.head .content a {
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    color: #3395ff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.head .content a:hover {
+    color: #003874
+}
+.head .content a::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    padding-left: 5px
+}
+
+/* End Head */
+
+
+/* Start Our Form*/
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px
+    
+}
+.form form .form-group h4 { 
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+}
+.form .form-group label {
+    color: #7e8794;
+    font-weight: 600
+}
+.form form .form-group {
+    width: 400px
+}
+.form form .form-control {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #7e8794 ;
+    color: #1d2229;
+    box-shadow: 0 4px 8px 0 rgba(16,19,20,.02);
+    outline: none;
+}
+.form form .form-group .btn {
+    font-weight: 600;
+    padding: 13px 22px;
+    background-color: #3395ff;
+    color: #fff;
+    border-radius: 0;
+    margin: 20px 0
+}
+.form form a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none
+}
+
+
+/* End Our Form*/
+
+
+/* ========== 
+
+End Login Page
+
+==========   */
+
+/* ========== 
+
+Start Sign up Page
+
+==========   */
+.head .signcontent {
+    display: flex;
+    justify-content: flex-end
+}
+.head .signcontent span {
+    margin-right: 20px
+}
+.head .signcontent a {
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    color: #3395ff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.head .signcontent a:hover {
+    color: #003874
+}
+
+/* ========== 
+
+End Sign up Page
+
+==========   */
+
+
+/* ========== 
+
+Start Forget Password Page
+
+==========   */
+
+.forget-head {
+    padding: 30px 
+}
+.forget-head .content a img {
+   margin-right: 10px;
+    height:30px
+}
+.forget-head .content a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px
+}
+.details {
+    padding: 30px
+}
+.details .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.details .content .form-group .head {
+    font-weight: 700;
+    padding: 10px 0
+}
+.details .content .form-group .text {
+    margin: 0 0 10px;
+    color: #696969;
+    padding: 10px 0
+}
+.details .content .form-group label {
+    color: #4b4b4b;
+    font-weight: 600
+}
+.details .content .form-group .form-control {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #7e8794 ;
+    color: #1d2229;
+    box-shadow: 0 4px 8px 0 rgba(16,19,20,.02);
+    outline: none;
+} 
+.details .content .form-group .btn {
+    font-weight: 600;
+    padding: 13px 22px;
+    background-color: #3395ff;
+    color: #fff;
+    border-radius: 0;
+    width: 400px;
+    margin: 20px 0
+}
+.details .content  a {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+}
+/* ========== 
+
+End Forget Password Page
+
+==========   */
+
+/* ========== 
+
+Start Sign Up Page
+
+==========   */
+.form .form-check {
+    margin: 20px 0
+}
+.form .form-check a{
+    text-decoration: underline;
+    color: #3b3b3b
+}
+.form .form-check a:hover { 
+    text-decoration: underline;
+    cursor: pointer
+}
+.form .form-group button {
+    width: 100%
+}
+/* ========== 
+
+End Sign Up Page
+
+==========   */
+
+
+
+/* ========== 
+
+Start Features Page
+
+==========   */
+
+.all {
+    padding: 10px 125px 50px
+}
+.all .con {
+    margin-bottom: 50px
+}
+.all .head h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px
+}
+
+.all .content .title p {
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px
+}
+
+.all .content .description p {
+    font-size: 16px;
+    line-height: 1.8
+}
+
+
+/* ========== 
+
+End Features Page
+
+==========   */
+
+
+
+/* ========== 
+
+Start Industry Page
+
+==========   */
+
+/* Start Retail */
+.hero img {
+    max-height: 400px
+}
+.retail {
+    padding: 0 80px 80px;
+    border-bottom: 1px solid #eee
+}
+.retail .head h6 {
+    font-weight: 700;
+    font-size: 20px
+}
+.retail .title p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 0 40px 0 0
+}
+.retail .description p {
+    font-size: 18px
+}
+
+.retail .content2 {
+    margin-top: 60px;
+    height: 350px;
+    background-image: url("../image/PointOfSale.jpg");
+    position: relative
+    
+}
+
+.retail .content2 .text {
+    background-color: #393939;
+    opacity: 0.93;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 18px
+}
+.retail .content2 .text p {
+    color: #fff
+}
+.retail .content2 .text p::before {
+    position: absolute;
+    top: 90px;
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f10d";
+    font-size: 13px;
+    font-weight: 700
+}
+.retail .content3 {
+    margin-top: 70px
+}
+
+.retail .content3 .img img {
+    height: 50px
+}
+.retail .content3 .text {
+    position: absolute;
+    top: 0;
+    left: 67px;
+    padding-left: 10px
+}
+/* End Retail */
+
+
+/* start Ecommerce */
+
+.ecommerce {
+    padding:  80px 80px
+}
+.ecommerce .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.ecommerce .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.ecommerce .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.ecommerce .logos {
+    margin: 90px 0
+}
+.ecommerce .logos img {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    height: 100px;
+    opacity: 0.5;
+}
+.ecommerce .logos img:hover {
+    opacity: 1;
+    cursor: pointer
+}
+/* End Ecommerce */
+
+
+/*Start Gaming */
+.gaming {
+    padding: 80px 80px;
+    background: #F5F6F7
+}
+.gaming .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.gaming .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.gaming .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.gaming .text a {
+    text-decoration: none
+}
+.gaming .text a::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 700 
+}
+.gaming .image {
+    margin: 90px 0
+}
+/*End Gaming   */ 
+
+
+/*Start Non Profits*/
+.nonprofits {
+    padding: 80px
+}
+.nonprofits .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.nonprofits .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.nonprofits .image {
+    margin: 90px 0
+}
+.nonprofits .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.nonprofits .text a {
+    text-decoration: none
+}
+.nonprofits .text a::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 6px
+}
+/*End  Non Profits*/
+
+/* Start Our Streaming */
+.streaming {
+    padding: 80px;
+    border-bottom: 1px solid #EDF1F5
+}
+.streaming .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+.streaming .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+
+.streaming .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.streaming .image {
+    margin-left: 50px
+}
+/* End  Our  Streaming */
+
+/* Start Our Start Up */
+.start-up {
+    padding: 80px;
+    background-color: linear-gradient(#FFFFFF, #F5F6F7);
+}
+.start-up .image img {
+    height: 400px
+}
+.start-up .head1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 22px
+}
+.start-up .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+
+.start-up .text {
+    font-size: 18px;
+    line-height: 1.8
+}
+.start-up .list-group {
+    margin-top: 40px
+}
+.start-up .list-group .list-group-item  {
+    padding: 0;
+    border: none;
+    margin-bottom: 13px;
+    font-size: 18px;
+    color: #434343
+}
+.start-up .list-group .list-group-item::before {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 6px;
+    color: #2289ff
+}
+/* End  Our  Start Up */
+
+/* ========== 
+
+End Industry Page
+
+==========   */
+
+
+/* ========== 
+
+Start Pricing  Page
+
+==========   */
+
+/* Start header */
+.header {
+    padding: 120px 80px;
+    border-bottom: 1px solid #EDF1F5
+}
+.header .content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.header .head1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+
+.header .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.header .head1::first-letter,.header .head2::first-letter {
+    text-transform: capitalize
+}
+.header .card {
+    width: 352px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px #f2f2f2,-3px -3px 5px #f2f2f2
+}
+.header .card .card-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+.header .card .card-subtitle {
+    margin-left: -25px
+}
+.header .card .card-subtitle::first-letter {
+    text-transform: capitalize
+}
+.header .card  .list-group-item {
+    border: none
+}
+.header .card  .list-group-item::before {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f00c";
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 6px;
+    color: #2289ff
+}
+
+.header .card .card-body .card-link {
+    padding: 13px 30px;
+    border: 1px solid #4896F0;
+    color: #4896F0;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+    
+}
+
+.header .card .card-body .card-link::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 6px;
+    color: #2289ff;
+    margin-left: 6px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.header .card .card-body .card-link:hover {
+    background: #4896F0;
+    color: #fff
+}
+.header .card .card-body .card-link:hover::after {
+    color: #fff
+}
+/* End header */
+
+/* Start get money */
+
+.get-money {
+    padding: 80px
+}
+.get-money .titles {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.get-money .titles .head1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 20px
+}
+.get-money .titles .head2 {
+    text-align: center;
+    margin: 0 auto 60px;
+    padding: 0 15px;
+    
+}
+.get-money .titles .head1::first-letter, .get-money .titles .head2::first-letter {
+    text-transform: capitalize
+}
+.get-money .image img {
+    height: 60px
+} 
+.get-money .part1, .get-money .part2  {
+    position: relative;
+    background: linear-gradient(30deg, #fff, rgba(242, 245, 246, 0.6), #e3e3e3);
+    padding: 30px 30px ;
+    margin-bottom: 60px
+}
+.get-money .part1 .part1-content, .get-money .part2 .part2-content {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    margin-left: 20px
+}
+.get-money .part1-content h3::first-letter, .get-money .part1-content p::first-letter,
+.get-money .part2-content h3::first-letter, .get-money .part2-content p::first-letter {
+    text-transform: capitalize
+}
+.get-money .part1 .end, .get-money .part2 .end {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: #4896F0;
+    font-weight: 700;
+    font-size: 20px
+    
+}
+/* End  get money */
+
+/* start high Volume */
+.highVolume {
+    padding: 80px;
+    position: relative;
+    margin-bottom: 20px
+}
+.highVolume::before {
+    content: "";
+    position: absolute;
+    top: 80px;
+    right: 24px;
+    bottom: 0;
+    left: 24px;
+    background: #F5F6F7;
+    z-index: -1
+}
+.highVolume .image, .highVolume .volumeContent {
+    padding: 20px 0
+}
+.highVolume .image img {
+    height: 300px
+}
+.highVolume .headText h2::first-letter , .highVolume .text p::first-letter {
+    text-transform: capitalize
+}
+.highVolume .headText h2 {
+    font-size: 36px;
+    font-weight: 700
+}
+.highVolume .text p {
+    font-size: 22px;
+    margin-top: 30px
+}
+.highVolume .button {
+    margin-top: 60px
+}
+.highVolume .button a {
+    text-decoration: none;
+    padding: 13px 18px;
+    font-weight: 700;
+    border: 1px solid #4896F0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.highVolume .button a:hover {
+    background-color: #4896F0;
+    color: #fff
+}
+/* End  high  Volume */
+
+/* ========== 
+
+End Pricing  Page
+
+==========   */
+
+
+/* ========== 
+
+Start Contact us  Page
+
+==========   */
+.contactus  {
+    padding: 120px 80px
+}
+.contactus .contacthead h2::first-letter, .contactus .contacttext p::first-letter {
+    text-transform: capitalize
+}
+.contactus .contacthead h2 {
+    font-weight: 700;
+    font-size: 36px
+}
+.contactus .contacttext p {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 30px 0
+}
+.contactus form .form-control {
+    padding: 12px;
+    outline: none
+}
+.contactus form .form-group .btn {
+    padding: 13px 18px;
+    background: #4896F0;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 17px;
+    position: relative;
+    text-align: left
+}
+.contactus form .form-group .btn::after {
+    position: absolute;
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 12px;
+    font-weight: 600;
+    right: 20px;
+    top: 20px
+}
+.contactus .contacthelp {
+   text-align: center
+}
+.contactus .contacthelp h4::first-letter, .contactus .contacthelp p::first-letter {
+    text-transform: capitalize
+}
+.contactus .contacthelp h4 {
+    font-size: 20px 
+}
+.contactus .contacthelp p {
+    margin: 20px 0;
+    font-size: 15px
+}
+
+.contactus .contacthelp p a {
+    text-decoration: underline;
+    color: #000
+}
+.contactus .contacthelp p a:hover {
+    text-decoration: none
+}
+
+/* ==========
+End Contact us  Page
+==========   */

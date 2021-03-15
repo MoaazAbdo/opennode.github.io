@@ -1,0 +1,705 @@
+/****** Start Our Navbar ******/
+.navbar {
+    padding: 20px
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none
+}    
+.navbar .navbar-brand {
+    font-weight: bold
+}
+.navbar .navbar-brand img {
+    height: 25px;
+    padding-right: 10px
+}
+.navbar .navbar-nav .nav-link {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .navbar-nav .nav-link {
+    color: #0a0a0a;
+    letter-spacing: 1.2px
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .last {
+    color: #2289ff
+}
+.navbar .navbar-nav .last .fas {
+    padding-left: 3px
+}
+.navbar .navbar-nav .last {
+    font-weight: 600;
+    position: relative
+}
+.navbar .navbar-nav .last::after {
+    
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+}
+.navbar .navbar-nav .last:hover {
+    color: #003f86
+}
+/****** End Our Navbar   ******/
+
+/*** Start Sticky Navbar  ***/
+.sticky {
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(16, 19, 20, 0.04);
+}
+
+/***  End Sticky Navbar ***/
+
+/* Start header */
+.header {
+    padding: 120px 80px;
+    border-bottom: 1px solid #EDF1F5
+}
+.header .content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.header .head1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+
+.header .head2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px
+}
+.header .head1::first-letter,.header .head2::first-letter {
+    text-transform: capitalize
+}
+.header .card {
+    width: 352px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px #f2f2f2,-3px -3px 5px #f2f2f2
+}
+.header .card .card-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+.header .card .card-subtitle {
+    margin-left: -25px
+}
+.header .card .card-subtitle::first-letter {
+    text-transform: capitalize
+}
+.header .card  .list-group-item {
+    border: none
+}
+.header .card  .list-group-item::before {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f00c";
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 6px;
+    color: #2289ff
+}
+
+.header .card .card-body .card-link {
+    padding: 13px 30px;
+    border: 1px solid #4896F0;
+    color: #4896F0;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out
+    
+}
+
+.header .card .card-body .card-link::after {
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 6px;
+    color: #2289ff;
+    margin-left: 6px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.header .card .card-body .card-link:hover {
+    background: #4896F0;
+    color: #fff
+}
+.header .card .card-body .card-link:hover::after {
+    color: #fff
+}
+/* End header */
+
+/* Start get money */
+
+.get-money {
+    padding: 80px
+}
+.get-money .titles {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.get-money .titles .head1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 20px
+}
+.get-money .titles .head2 {
+    text-align: center;
+    margin: 0 auto 60px;
+    padding: 0 15px;
+    
+}
+.get-money .titles .head1::first-letter, .get-money .titles .head2::first-letter {
+    text-transform: capitalize
+}
+.get-money .image img {
+    height: 60px
+} 
+.get-money .part1, .get-money .part2  {
+    position: relative;
+    background: linear-gradient(30deg, #fff, rgba(242, 245, 246, 0.6), #e3e3e3);
+    padding: 30px 30px ;
+    margin-bottom: 60px
+}
+.get-money .part1 .part1-content, .get-money .part2 .part2-content {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    margin-left: 20px
+}
+.get-money .part1-content h3::first-letter, .get-money .part1-content p::first-letter,
+.get-money .part2-content h3::first-letter, .get-money .part2-content p::first-letter {
+    text-transform: capitalize
+}
+.get-money .part1 .end, .get-money .part2 .end {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: #4896F0;
+    font-weight: 700;
+    font-size: 20px
+    
+}
+/* End  get money */
+
+/* start high Volume */
+.highVolume {
+    padding: 80px;
+    position: relative;
+    margin-bottom: 20px
+}
+.highVolume::before {
+    content: "";
+    position: absolute;
+    top: 80px;
+    right: 24px;
+    bottom: 0;
+    left: 24px;
+    background: #F5F6F7;
+    z-index: -1
+}
+.highVolume .image, .highVolume .volumeContent {
+    padding: 20px 0
+}
+.highVolume .image img {
+    height: 300px
+}
+.highVolume .headText h2::first-letter , .highVolume .text p::first-letter {
+    text-transform: capitalize
+}
+.highVolume .headText h2 {
+    font-size: 36px;
+    font-weight: 700
+}
+.highVolume .text p {
+    font-size: 22px;
+    margin-top: 30px
+}
+.highVolume .button {
+    margin-top: 60px
+}
+.highVolume .button a {
+    text-decoration: none;
+    padding: 13px 18px;
+    font-weight: 700;
+    border: 1px solid #4896F0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.highVolume .button a:hover {
+    background-color: #4896F0;
+    color: #fff
+}
+/* End  high  Volume */
+
+/*** Start Our pre-footer***/
+.pre-footer {
+    padding: 100px 10px;
+    background-color: #1D2229;
+    color: #fff
+}
+
+.pre-footer .pre-head {
+    margin-bottom: 25px
+}
+.pre-footer .pre-head h1 {
+    font-size: 36px
+}
+.pre-footer .pre-text p {
+    font-size: 20px
+}
+.pre-footer .pre-btn {
+    margin-top: 23px
+}
+
+.pre-footer .pre-btn .button {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    position: relative;
+    padding: 13px 22px;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.pre-footer .pre-btn .butt1 {
+    background-color: #4896F0;
+    border: 1px solid #4896F0
+}
+.pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 5px
+}
+.pre-footer .pre-btn .butt1:hover  {
+    background-color: #1f82f4
+}
+.pre-footer .pre-btn .butt2 {
+    border: 1px solid #fff;
+    margin-left: 30px    
+}
+.pre-footer .pre-btn .butt2:hover {
+    border: 1px solid #999;
+    color: #999
+}
+/*** End Our pre-footer***/
+
+/*** Start Our Footer ***/
+
+.footer {
+    border-top: 1px solid #3c3c3c;
+    padding: 70px;
+    background-color: #1D2229;
+    color: #fff
+}
+.footer img {
+    margin-bottom: 30px
+}
+.footer .list-group p {
+    font-weight: 600;
+    font-size: 19px
+}
+.footer .list-group-item {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.footer .list-group-item:hover {
+    color: #999
+}
+.footer .copy {
+    margin-top: 40px;
+    color: #999
+}
+/*** End Our Footer   ***/
+
+
+
+
+/* =======================
+    Start Responsive
+ ========================  */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin-left: 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after  {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    
+    .get-money {
+        padding: 40px
+    }
+    .get-money .image img {
+        height: 50px
+    } 
+    .get-money .part1 .end, .get-money .part2 .end {
+        top: 30px;
+    }
+    .highVolume {
+        padding: 40px
+    }
+    .highVolume::before {
+        top: 50px
+    }
+    .highVolume .image img {
+        height: 250px
+    }
+    .highVolume .headText h2 {
+        font-size: 30px
+    }
+    .highVolume .text p {
+        font-size: 19px
+    }
+    
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    
+    .get-money {
+        padding: 20px
+    }
+    .get-money .image img {
+        height: 40px
+    }
+    .get-money .titles .head1 {
+        font-size: 25px
+    }
+    .get-money .titles .head2 {
+        /*width: 450px*/
+    }
+    .get-money .part1-content h3,.get-money .part2-content h3 {
+        font-size: 20px
+    }
+    .get-money .part1-content p,.get-money .part2-content p {
+        font-size: 14px   
+    }
+    .get-money .part1 .end, .get-money .part2 .end {
+        top: 30px;
+        right: 10px
+    }
+    .highVolume {
+        padding: 20px
+    }
+    .highVolume::before {
+        top: 30px
+    }
+    .highVolume .image img {
+        height: 250px
+    }
+    .highVolume .headText h2 {
+        font-size: 25px
+    }
+    .highVolume .text p {
+        font-size: 15px
+    }
+    .highVolume .button {
+        margin-top: 30px
+    }
+    
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500
+    }
+    
+    .footer .list-group {
+        margin-bottom: 40px
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 70%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px  0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    
+    .header {
+        padding: 100px 10px;
+    }
+    .header .card {
+        width: 300px
+    }
+    .header .head1 {
+        
+        font-size: 18px
+    }
+    .header .head2 {
+       
+        font-size: 23px
+    }
+    .get-money {
+        padding: 10px
+    }
+    .get-money .image img {
+        height: 35px
+    }
+    .get-money .titles .head1 {
+        font-size: 23px;
+        text-align: center
+    }
+    .get-money .titles .head2 {
+        /*width: 350px*/
+    }
+    .get-money .part1 .part1-content, .get-money .part2 .part2-content {
+        left: 55px
+    }
+    .get-money .part1-content h3,.get-money .part2-content h3 {
+        font-size: 18px
+    }
+    .get-money .part1-content p,.get-money .part2-content p {
+        font-size: 14px   
+    }
+    .get-money .part1 .end, .get-money .part2 .end {
+        font-size: 16px;
+        top: 10px;
+        right: 10px
+    }
+    .highVolume {
+        padding: 10px
+    }
+    .highVolume::before {
+        top: 30px
+    }
+    .highVolume .image img {
+        height: 200px
+    }
+    
+    .highVolume .volumeContent {
+        text-align: center
+    }
+    .highVolume .headText h2 {
+        font-size: 22px
+    }
+    .highVolume .text p {
+        font-size: 15px
+    }
+    .highVolume .button {
+        margin: 40px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 26px
+    }
+    .pre-footer .pre-text p {
+        font-size: 18px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500;
+        padding: 11px 20px
+    }
+    .footer {
+        padding: 70px  10px 
+    }
+    .footer .list-group {
+        border-bottom: 1px solid #3c3c3c;
+        width: 90px;
+        margin-bottom: 40px
+    }
+    
+}
+
+@media (max-width: 345px) {
+    .pre-footer .pre-btn .button {
+        display: block
+    }
+    .pre-footer .pre-btn .butt2 {
+        margin: 10px 0
+    }
+    .pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+        right: 10px
+    }
+}
+
+/* =======================
+    End Responsive
+ ========================  */

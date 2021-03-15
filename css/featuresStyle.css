@@ -1,0 +1,518 @@
+/****** Start Our Navbar ******/
+.navbar {
+    padding: 20px
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    outline: none
+}    
+.navbar .navbar-brand {
+    font-weight: bold
+}
+.navbar .navbar-brand img {
+    height: 25px;
+    padding-right: 10px
+}
+.navbar .navbar-nav .nav-link {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .navbar-nav .nav-link {
+    color: #0a0a0a;
+    letter-spacing: 1.2px
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .last {
+    color: #2289ff
+}
+.navbar .navbar-nav .last .fas {
+    padding-left: 3px
+}
+.navbar .navbar-nav .last {
+    font-weight: 600;
+    position: relative
+}
+.navbar .navbar-nav .last::after {
+    
+    font-family: "Font Awesome\ 5 Free";
+    content: "\f054";
+    font-size: 13px;
+}
+.navbar .navbar-nav .last:hover {
+    color: #003f86
+}
+/****** End Our Navbar   ******/
+
+/*** Start Sticky Navbar  ***/
+.sticky {
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(16, 19, 20, 0.04);
+}
+
+/***  End Sticky Navbar ***/
+
+/****** Start Our Hero  ******/
+
+.hero {
+    padding: 130px 80px 
+}
+.hero .section1 {
+    padding-top: 40px
+}
+.hero .section1 .hero-head {
+    font-weight: bolder;
+    font-size: 50px
+}
+.hero .section1 .hero-text {
+    padding-top: 20px;
+    font-size: 19px;
+    color: #4b4b4b;
+    line-height: 1.8
+}
+.hero .section1 .hero-button {
+    margin-top: 50px
+}
+.hero .section1 .button {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+.hero .section1 .button1 {
+    background: #4896F0;
+    color: #fff;
+}
+.hero .section1 .button1 .fas {
+    padding-left: 3px
+}
+
+.hero .section1 .button2 {
+    color: #4896F0;
+    border: 1px solid #4896F0;
+    margin-left:  30px
+}
+.hero .section1 .button1:hover, .hero .section1 .button2:hover {
+    color: #fff;
+    background: #1f82f4;
+}
+.hero img {
+    max-height: 400px
+}
+/****** End Our Hero   ******/
+
+
+.all {
+    padding: 10px 125px 50px
+}
+.all .con {
+    margin-bottom: 50px
+}
+.all .head h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px
+}
+
+.all .content .title p {
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px
+}
+
+.all .content .description p {
+    font-size: 16px;
+    line-height: 1.8
+}
+
+
+
+/*** Start Our pre-footer***/
+.pre-footer {
+    padding: 100px 10px;
+    background-color: #1D2229;
+    color: #fff
+}
+
+.pre-footer .pre-head {
+    margin-bottom: 25px
+}
+.pre-footer .pre-head h1 {
+    font-size: 36px
+}
+.pre-footer .pre-text p {
+    font-size: 20px
+}
+.pre-footer .pre-btn {
+    margin-top: 23px
+}
+
+.pre-footer .pre-btn .button {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    position: relative;
+    padding: 13px 22px;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.pre-footer .pre-btn .butt1 {
+    background-color: #4896F0;
+    border: 1px solid #4896F0
+}
+.pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 5px
+}
+.pre-footer .pre-btn .butt1:hover  {
+    background-color: #1f82f4
+}
+.pre-footer .pre-btn .butt2 {
+    border: 1px solid #fff;
+    margin-left: 30px    
+}
+.pre-footer .pre-btn .butt2:hover {
+    border: 1px solid #999;
+    color: #999
+}
+/*** End Our pre-footer***/
+
+/*** Start Our Footer ***/
+
+.footer {
+    border-top: 1px solid #3c3c3c;
+    padding: 70px;
+    background-color: #1D2229;
+    color: #fff
+}
+.footer img {
+    margin-bottom: 30px
+}
+.footer .list-group p {
+    font-weight: 600;
+    font-size: 19px
+}
+.footer .list-group-item {
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.footer .list-group-item:hover {
+    color: #999
+}
+.footer .copy {
+    margin-top: 40px;
+    color: #999
+}
+/*** End Our Footer   ***/
+
+
+
+
+
+/* =======================
+    Start Responsive
+ ========================  */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin-left: 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after  {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    
+    .hero {
+        padding: 120px 0
+    }
+     .hero .section1 .hero-head {
+        font-size: 35px
+    }
+    .hero .section1 .hero-text {
+        font-size: 17px
+    }
+    
+    .all {
+        padding: 20px 50px 0
+    }
+    
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .container {
+        max-width: 868px;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 50%;
+        margin: 0 
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px 0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    
+    
+    .hero {
+        padding: 100px 0
+    }
+    .hero .section1 {
+        margin-bottom: 50px
+    }
+    .hero .section1 .hero-head {
+        font-size: 32px
+    }
+    .hero .section1 .hero-text {
+        font-size: 16px
+    }
+    .hero .section1 .button {
+        padding: 11px 15px
+    }
+    .hero img {
+        padding: 0 80px
+    }
+    .all {
+        padding: 20px 0 0
+    }
+    .pre-footer {
+        padding: 100px 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 30px
+    }
+    
+    .pre-footer .pre-text p {
+        font-size: 17px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500
+    }
+    
+    .footer .list-group {
+        margin-bottom: 40px
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    
+    .navbar {
+         background-color: #fff;
+    }
+    .navbar .navbar-nav {
+        margin-top: 10px;
+        padding-left: 36px
+    }
+    .navbar .divider {
+        border: 1px solid #EDF1F5;
+        width: 60%;
+        margin: 20px 0 20px 30px
+    }
+    .navbar .navbar-nav .log, .navbar .navbar-nav .sign {
+        border-radius: 5px;
+        width: 70%;
+        margin: 0 
+    }
+    .navbar .navbar-nav .log {
+        background-color: #88919E
+        
+    }
+    .navbar .navbar-nav .sign {
+        background: green;
+        margin: 10px  0        
+    }
+    
+    .navbar .navbar-nav .log .nav-link, .navbar .navbar-nav .sign .nav-link {
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+    }
+    
+    .navbar .navbar-nav .log .nav-link::after {
+        position: absolute;
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 13px;
+        top: 13px;
+        right: 10px
+    }
+    .navbar .navbar-nav .sign .nav-link::after {
+        position: absolute;
+        top: 13px;
+        right: 10px
+    }
+    .hero {
+        padding: 60px 10px
+    }
+    .hero .section1 {
+        margin-bottom: 80px
+    }
+     .hero .section1 .hero-head {
+        font-size: 30px
+    }
+    .hero .section1 .hero-text {
+        font-size: 16px
+    }
+    .hero .section1 .button {
+        padding: 11px 15px
+    }
+    .hero img {
+        padding: 0 50px
+    }
+    .all {
+        padding: 20px 0 0
+    }
+    .pre-footer .pre-head h1 {
+        font-size: 26px
+    }
+    .pre-footer .pre-text p {
+        font-size: 18px
+    }
+    .pre-footer .pre-btn .button {
+        font-weight: 500;
+        padding: 11px 20px
+    }
+    .footer {
+        padding: 70px  10px 
+    }
+    .footer .list-group {
+        border-bottom: 1px solid #3c3c3c;
+        width: 90px;
+        margin-bottom: 40px
+    }
+}
+
+
+@media (max-width: 345px) { 
+
+    .pre-footer .pre-btn .button {
+        display: block
+    }
+    .pre-footer .pre-btn .butt2 {
+        margin: 10px 0
+    }
+    .pre-footer .pre-btn .butt1 .fas, .pre-footer .pre-btn .butt2 .fas {
+        right: 10px
+    }
+}
+/* =======================
+    End Responsive
+ ========================  */
